@@ -79,9 +79,12 @@ export default function Home() {
                 onscreen: { x: 0, opacity: 1, transition: { type: "spring", bounce: 0.2, duration: 1, delay: 0.5 } },
               }}
             >
-              <button className="w-40 sm:w-44 border-b-2 border-blue-500 py-3 text-start flex items-center mt-4 sm:mt-10 hover:scale-105 transition duration-200 ease-in-out">
+              <Link
+                href="#download"
+                className="w-40 sm:w-44 border-b-2 border-blue-500 py-3 text-start flex items-center mt-4 sm:mt-10 hover:scale-105 transition duration-200 ease-in-out"
+              >
                 Start Your Training <PiArrowRightLight className="ml-auto" />
-              </button>
+              </Link>
             </motion.div>
           </div>
           <motion.div
@@ -90,7 +93,7 @@ export default function Home() {
             viewport={{ amount: 0.2, once: true }}
             variants={{
               offscreen: { y: 200, opacity: 0 },
-              onscreen: { y: 0, opacity: 1, transition: { type: "spring", bounce: 0.1, duration: 2, delay: 0.2, delayChildren:1.7 } },
+              onscreen: { y: 0, opacity: 1, transition: { type: "spring", bounce: 0.1, duration: 2, delay: 0.2, delayChildren: 1.7 } },
             }}
             className="w-[55vw] lg:w-[40vw] xl:w-[20vw] absolute top-[27%] sm:top-auto left-[50%] xl:left-[63%]"
           >
@@ -214,7 +217,7 @@ export default function Home() {
           </motion.div>
         </section>
       </section>
-      <section className="bg-black">
+      <section id="download" className="bg-black">
         <motion.div
           initial="offscreen"
           whileInView="onscreen"

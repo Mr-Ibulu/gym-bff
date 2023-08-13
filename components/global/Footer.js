@@ -33,7 +33,7 @@ const Footer = () => {
             <Link href="/" target="_blank" rel="noopener noreferrer" className="my-4">
               <FaTwitter />
             </Link>
-            <Link href="/" target="_blank" rel="noopener noreferrer" className="my-4">
+            <Link href="https://instagram.com/gymbff_?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" className="my-4">
               <FaInstagram />
             </Link>
             <Link href="/" target="_blank" rel="noopener noreferrer" className="my-4">
