@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import hero from "@/public/images/hero1.jpg";
-import app from "@/public/images/app.png";
+import app from "@/public/images/iphone-frame.png";
 import google from "@/public/images/google-play-button.png";
 import apple from "@/public/images/apple-store-button.png";
 import { PiArrowRightLight } from "react-icons/pi";
@@ -97,7 +97,15 @@ export default function Home() {
             }}
             className="w-[55vw] lg:w-[40vw] xl:w-[20vw] absolute top-[27%] sm:top-auto left-[50%] xl:left-[63%]"
           >
-            <motion.div variants={{ onscreen: { y: [null, 30, 0], transition: { duration: 5, ease: "easeInOut", repeat: Infinity } } }}>
+            <motion.div
+              variants={{ onscreen: { y: [null, 30, 0], transition: { duration: 5, ease: "easeInOut", repeat: Infinity } } }}
+              className="relative overflow-hidden"
+            >
+              <div className="w-[86.1%] h-[93%] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-red-500 absolute -z-10 overflow-hidden text-white">
+                <video className="w-full h-full object-cover" autoPlay loop muted playsInline disablePictureInPicture>
+                  <source src="/videos/gymbffvid.mp4" type="video/mp4" />
+                </video>
+              </div>
               <Image src={app} alt="phone-app-preview" placeholder="blur" className="object-cover" />
             </motion.div>
           </motion.div>

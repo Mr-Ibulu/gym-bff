@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 w-full z-20 text-white backdrop-blur-sm bg-transparent/5">
+    <header className="fixed top-0 left-0 right-0 w-full z-40 text-white backdrop-blur-sm bg-transparent/5">
       <div className="flex px-6 py-2 sm:py-3 justify-between relative items-center">
         <Link href="/" className="flex items-center">
           <Image src={logo} alt="logo" className="w-14 mr-2" />
