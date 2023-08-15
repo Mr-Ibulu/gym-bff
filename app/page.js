@@ -273,7 +273,7 @@ export default function Home() {
                 name="email"
                 autoComplete="on"
                 required
-                placeholder="enter your email"
+                placeholder="Enter your email"
                 className="rounded-md h-12 px-3 grow text-black font-medium sm:w-80"
               />
               <button className="bg-blue-600 rounded-md px-3 hover:scale-105 transition duration-100">Subscribe</button>
