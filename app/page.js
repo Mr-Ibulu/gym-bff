@@ -101,7 +101,7 @@ export default function Home() {
               variants={{ onscreen: { y: [null, 30, 0], transition: { duration: 5, ease: "easeInOut", repeat: Infinity } } }}
               className="relative overflow-hidden"
             >
-              <div className="w-[86.1%] h-[93%] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-red-500 absolute -z-10 overflow-hidden text-white">
+              <div className="w-[86.1%] h-[93%] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 absolute -z-10 overflow-hidden">
                 <video className="w-full h-full object-cover" autoPlay loop muted playsInline disablePictureInPicture>
                   <source src="/videos/gymbffvid.mp4" type="video/mp4" />
                 </video>
