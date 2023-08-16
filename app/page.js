@@ -37,7 +37,7 @@ const FitnessDescription = ({ icon, title, description }) => {
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <main className="overflow-hidden before:bg-black before:block before:h-[1px]">
       <section className="h-[96svh] bg-black relative text-white">
         <div className="absolute inset-0">
           <Image src={hero} alt="hero-img" fill placeholder="blur" className="object-cover opacity-10" />
