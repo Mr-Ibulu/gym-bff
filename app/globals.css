@@ -17,3 +17,8 @@ body {
 ::-webkit-scrollbar-track {
   background-color: transparent;
 } */
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
