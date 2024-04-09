@@ -3,7 +3,8 @@
 import logo from "@/public/images/gymbff-logo-white.png";
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebookF, FaInstagram, FaTiktok, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
 const Footer = () => {
@@ -30,13 +31,13 @@ const Footer = () => {
             <Link href="/" className="my-4">
               <FaFacebookF />
             </Link>
-            <Link href="/" target="_blank" rel="noopener noreferrer" className="my-4">
-              <FaTwitter />
+            <Link href="https://x.com/gymbff_?s=21" target="_blank" rel="noopener noreferrer" className="my-4">
+              <FaXTwitter />
             </Link>
-            <Link href="https://instagram.com/gymbff_?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" className="my-4">
+            <Link href="https://www.instagram.com/gymbff_?igsh=MXJ6aWxyaTVlODk4cA==" target="_blank" rel="noopener noreferrer" className="my-4">
               <FaInstagram />
             </Link>
-            <Link href="/" target="_blank" rel="noopener noreferrer" className="my-4">
+            <Link href="https://www.tiktok.com/@gymbff_?_t=8l8VLBuZ3sT&_r=1" target="_blank" rel="noopener noreferrer" className="my-4">
               <FaTiktok />
             </Link>
           </div>
