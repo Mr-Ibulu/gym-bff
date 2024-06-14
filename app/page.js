@@ -40,7 +40,7 @@ export default function Home() {
     <main className="overflow-hidden before:bg-black before:block before:h-[1px]">
       <section className="h-[96svh] bg-black relative text-white">
         <div className="absolute inset-0">
-          <Image src={hero} alt="hero-img" fill placeholder="blur" className="object-cover opacity-10" />
+          <Image src={hero} alt="hero-img" fill placeholder="blur" className="object-cover opacity-10" priority />
         </div>
         <div className="relative h-full flex items-center pl-10 sm:pl-12 lg:pl-20 xl:pl-48">
           <div className="flex flex-col gap-6 z-10">
@@ -106,7 +106,7 @@ export default function Home() {
                   <source src="/videos/gymbffvid2.mp4" type="video/mp4" />
                 </video>
               </div>
-              <Image src={app} alt="phone-app-preview" className="object-cover" />
+              <Image src={app} alt="phone-app-preview" className="object-cover" priority />
             </motion.div>
           </motion.div>
         </div>
