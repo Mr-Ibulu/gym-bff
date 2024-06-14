@@ -103,10 +103,10 @@ export default function Home() {
             >
               <div className="w-[87.5%] h-[94.5%] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 absolute -z-10 overflow-hidden">
                 <video className="w-full h-full object-cover" autoPlay loop muted playsInline disablePictureInPicture>
-                  <source src="/videos/gymbffvid.mp4" type="video/mp4" />
+                  <source src="/videos/gymbffvid2.mp4" type="video/mp4" />
                 </video>
               </div>
-              <Image src={app} alt="phone-app-preview" placeholder="blur" className="object-cover" />
+              <Image src={app} alt="phone-app-preview" className="object-cover" />
             </motion.div>
           </motion.div>
         </div>
