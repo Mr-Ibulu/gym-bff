@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 w-full z-40 text-white backdrop-blur-sm bg-transparent/5">
+    <header className="fixed top-0 left-0 right-0 w-full z-40 text-white backdrop-blur-md bg-transparent/5">
       <div className="flex px-6 py-2 sm:py-3 justify-between relative items-center">
         <Link href="/" className="flex items-center">
           <Image src={logo} alt="logo" className="w-14 mr-2" />
@@ -23,7 +23,7 @@ const Header = () => {
         <nav className="absolute left-1/2 -translate-x-1/2 hidden sm:flex gap-6 font-medium text-sm">
           <Link href={"/about"}>About</Link>
           <Link href={"#subscribe"}>Subscribe</Link>
-          <Link href={"/contact"}>Contact</Link>
+          <Link href={"#contact"}>Contact</Link>
         </nav>
         <button className="text-3xl sm:hidden mr-3" onClick={toggleSidebar}>
           <CgMenu />

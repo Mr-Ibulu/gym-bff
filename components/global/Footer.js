@@ -9,8 +9,8 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <section className="bg-black text-white px-10 lg:px-40 2xl:px-[20%] pt-20">
-      <div className="flex flex-col sm:flex-row justify-between gap-10">
+    <section className="bg-black text-white px-10 lg:px-40 2xl:px-[15%] pt-20">
+      <div id="contact" className="flex flex-col sm:flex-row justify-between gap-10">
         <motion.div
           initial="offscreen"
           whileInView="onscreen"
@@ -50,7 +50,7 @@ const Footer = () => {
             offscreen: { x: "100", opacity: 0 },
             onscreen: { x: 0, opacity: 1, transition: { type: "spring", bounce: 0.2, duration: 1, delay: 0.1 } },
           }}
-          className="grid grid-cols-2 gap-3 sm:gap-14"
+          className="grid grid-cols-2 xl:grid-cols-3 gap-3 gap-y-10 sm:gap-14"
         >
           <div>
             <p className="text-xl font-bold mb-4 uppercase">Membership</p>
@@ -67,10 +67,16 @@ const Footer = () => {
               <Link href="/">Contact Us</Link>
             </div>
           </div>
+          <div>
+            <p className="text-xl font-bold mb-4 uppercase">Legal</p>
+            <div className="flex flex-col gap-3 text-gray-400">
+              <Link href="/privacy">Privacy policy</Link>
+            </div>
+          </div>
         </motion.div>
       </div>
       <div className="py-10 text-center text-gray-400">
-        <p className="[word-spacing:3px]">Copyright &copy; 2023 GymBff. All rights reserved.</p>
+        <p>Copyright &copy; 2023 GymBff. All rights reserved.</p>
       </div>
     </section>
   );

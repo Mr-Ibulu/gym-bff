@@ -23,7 +23,7 @@ const Sidebar = ({ open, toggleFunction }) => {
           </Link>
         </div>
         <div className="h-16">
-          <Link href="/contact" className="block w-full h-full p-4" onClick={toggleFunction}>
+          <Link href="#contact" className="block w-full h-full p-4" onClick={toggleFunction}>
             Contact
           </Link>
         </div>

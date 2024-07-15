@@ -54,7 +54,7 @@ export default function Home() {
               }}
               className="w-80 sm:w-[33rem] h-fit"
             >
-              <h1 className="text-4xl sm:text-6xl font-bold leading-10 sm:leading-[4rem] [word-spacing:10px]">
+              <h1 className="text-4xl sm:text-6xl font-bold leading-10 sm:leading-[4rem] [word-spacing:4px]">
                 The ultimate online personal training platform
               </h1>
             </motion.div>
@@ -125,7 +125,7 @@ export default function Home() {
         >
           <div className="grid sm:grid-cols-2 sm:gap-10 xl:gap-40">
             <div>
-              <h2 className="text-2xl mx-auto sm:mx-0 lg:text-3xl font-bold [word-spacing:2px] leading-7 lg:leading-10 w-64 sm:w-60 lg:w-[23rem] pb-2">
+              <h2 className="text-2xl mx-auto sm:mx-0 lg:text-3xl font-bold leading-7 lg:leading-10 w-64 sm:w-60 lg:w-[23rem] pb-2">
                 Our trainers follow our 5 key pillars of fitness to get you in top condition
               </h2>
               <FitnessDescription
@@ -180,30 +180,28 @@ export default function Home() {
           className="2xl:flex 2xl:justify-start 2xl:w-full sm:px-20"
         >
           <div className="2xl:mx-auto px-10">
-            <p className="uppercase font-bold [word-spacing:3px] text-gray-600">Our Plans And Services</p>
+            <p className="uppercase font-bold text-gray-600">Our Plans And Services</p>
             <div
               className="mt-12 pb-8 xl:mt-16 flex gap-14 2xl:gap-24 overflow-x-scroll 
                   2xl:scrollbar-none scrollbar-thin scrollbar-thumb-blue-600 scrollbar-track-gray-50/20 scrollbar-thumb-rounded-full"
             >
               <div>
-                <h4 className="uppercase text-xl sm:text-2xl font-bold [word-spacing:3px] mb-3">Workout Video</h4>
-                <p className="text-lg [word-spacing:3px] w-64 sm:w-72 2xl:w-64 font-medium">Access to hundreds of free, full-length workout videos</p>
+                <h4 className="uppercase text-xl sm:text-2xl font-bold mb-3">Workout Video</h4>
+                <p className="text-lg w-64 sm:w-72 2xl:w-64 font-medium">Access to hundreds of free, full-length workout videos</p>
               </div>
               <div>
-                <h4 className="uppercase text-xl sm:text-2xl font-bold [word-spacing:3px] mb-3">Workout Program</h4>
-                <p className="text-lg [word-spacing:3px] w-64 sm:w-72 2xl:w-64 font-medium">Affordable and effective workout programs </p>
+                <h4 className="uppercase text-xl sm:text-2xl font-bold mb-3">Workout Program</h4>
+                <p className="text-lg w-64 sm:w-72 2xl:w-64 font-medium">Affordable and effective workout programs </p>
               </div>
               <div>
-                <h4 className="uppercase text-xl sm:text-2xl font-bold [word-spacing:3px] mb-3">Meal Plans</h4>
-                <p className="text-lg [word-spacing:3px] w-64 sm:w-72 2xl:w-64 font-medium">
-                  Plans built with registered dietitians and nutritionists
-                </p>
+                <h4 className="uppercase text-xl sm:text-2xl font-bold mb-3">Meal Plans</h4>
+                <p className="text-lg w-64 sm:w-72 2xl:w-64 font-medium">Plans built with registered dietitians and nutritionists</p>
               </div>
               <div>
-                <h4 className="uppercase text-xl sm:text-2xl font-bold [word-spacing:3px] mb-3">
+                <h4 className="uppercase text-xl sm:text-2xl font-bold mb-3">
                   Gym bff+ <div className="inline-block text-xs bg-red-500 text-white p-1 rounded -translate-y-1">All Access</div>
                 </h4>
-                <p className="text-lg [word-spacing:3px] w-64 sm:w-72 2xl:w-64 font-medium">Add powerful features to your membership</p>
+                <p className="text-lg w-64 sm:w-72 2xl:w-64 font-medium">Add powerful features to your membership</p>
               </div>
             </div>
           </div>
@@ -236,9 +234,9 @@ export default function Home() {
           }}
           className=" flex flex-col gap-10 md:flex-row py-4 sm:py-10 2xl:py-20 relative"
         >
-          <div className="text-4xl sm:text-6xl font-bold leading-10 sm:leading-[5rem] [word-spacing:10px] text-white px-10 sm:pl-16 sm:pr-9 2xl:pl-28 md:w-[70%]">
+          <div className="text-4xl sm:text-6xl font-bold leading-10 sm:leading-[5rem] text-white px-10 sm:pl-16 sm:pr-9 2xl:pl-28 md:w-[70%]">
             <h1>Ready to get started?</h1>
-            <h1 className="text-2xl sm:text-3xl mt-5 [word-spacing:5px]">Join us by downloading our app and choose a plan that is best for you.</h1>
+            <h1 className="text-2xl sm:text-3xl mt-5 [word-spacing:2px]">Join us by downloading our app and choose a plan that is best for you.</h1>
           </div>
           <div className="flex md:flex-col 2xl:flex-row items-center justify-center gap-6 sm:gap-10 p-4 md:p-10">
             <Link href="/">
@@ -263,9 +261,7 @@ export default function Home() {
           }}
           className="text-white py-9 px-10 sm:py-14 flex flex-col gap-8 sm:gap-10 items-center"
         >
-          <h5 className="text-xl sm:text-2xl font-medium text-center leading-9 [word-spacing:3px]">
-            Subscribe to stay up to date with the latest information
-          </h5>
+          <h5 className="text-xl sm:text-2xl font-medium text-center leading-9">Subscribe to stay up to date with the latest information</h5>
           <form>
             <div className="flex gap-3 sm:gap-5">
               <input

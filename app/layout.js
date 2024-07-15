@@ -1,9 +1,9 @@
 import Header from "@/components/global/Header";
 import "./globals.css";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import { Nunito_Sans } from "next/font/google";
 import Footer from "@/components/global/Footer";
 
-const plusJakartaSans = Plus_Jakarta_Sans({
+const nunitoSans = Nunito_Sans({
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700", "800"],
 });
@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={plusJakartaSans.className}>
+      <body className={nunitoSans.className}>
         <Header />
         {children}
         <Footer />
